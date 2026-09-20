@@ -128,7 +128,6 @@
   border: 1px solid var(--form-border);
   border-radius: var(--modal-radius);
   background-color: transparent;
-  color: #434455;
 
   font-family: inherit;
   font-weight: 400;
@@ -144,6 +143,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .field-textarea {
@@ -152,6 +152,7 @@
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
+  color: #434455;
   resize: none;
 }
 
