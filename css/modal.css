@@ -266,6 +266,7 @@
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  text-align: center;
   color: var(--form-white);
 
   background-color: var(--form-accent);
