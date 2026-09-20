@@ -46,3 +46,81 @@
 .footer-socials-list .socials-link:focus {
   background-color: var(--color-green);
 }
+/* Блок притиснутий до правого краю контейнера футера */
+.footer-subscribe {
+  width: fit-content;
+  max-width: 100%;
+  margin-left: auto;
+}
+
+.subscribe-text {
+  margin: 0 0 16px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--form-white);
+}
+
+.subscribe-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.subscribe-input {
+  width: 264px;
+  max-width: 100%;
+  height: 40px;
+  padding: 0 16px;
+
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: var(--form-white);
+
+  background-color: transparent;
+  border: 1px solid var(--form-white);
+  border-radius: var(--modal-radius);
+
+  outline: transparent;
+
+  transition: border-color var(--form-transition);
+}
+
+.subscribe-input::placeholder {
+  color: var(--form-white);
+  opacity: 1;
+}
+
+.subscribe-input:focus {
+  border-color: var(--form-success);
+}
+
+.subscribe-btn {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 24px;
+
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--form-white);
+
+  background-color: var(--form-accent);
+  border: 0;
+  border-radius: var(--modal-radius);
+  cursor: pointer;
+
+  transition: background-color var(--form-transition);
+}
+
+.subscribe-btn:hover,
+.subscribe-btn:focus {
+  background-color: var(--form-success);
+}
