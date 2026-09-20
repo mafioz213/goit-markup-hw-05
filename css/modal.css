@@ -1,4 +1,3 @@
-
 :root {
   --form-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -7,7 +6,6 @@
   --form-label: #8e8f99;
   --form-accent: #4d5ae5;
   --form-accent-hover: #404bbf;
-  --form-success: #31d0aa;
   --form-close-bg: #e7e9fc;
   --modal-bg: #fcfcfc;
   --backdrop-bg: rgba(46, 47, 66, 0.4);
@@ -21,18 +19,7 @@
     0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  white-space: nowrap;
-}
-
+/* ---------- Backdrop ---------- */
 .backdrop {
   position: fixed;
   inset: 0;
@@ -60,7 +47,7 @@
   pointer-events: auto;
 }
 
-
+/* ---------- Модальне вікно ---------- */
 .modal {
   position: relative;
   width: 100%;
@@ -84,6 +71,7 @@
   color: var(--form-text);
 }
 
+/* ---------- Кнопка закриття ---------- */
 .modal-close {
   position: absolute;
   top: 24px;
@@ -98,7 +86,7 @@
 
   color: var(--form-text);
   background-color: var(--form-close-bg);
-  border: 1px solid var(--form-accent);
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 50%;
   cursor: pointer;
 
@@ -115,6 +103,7 @@
   border-color: var(--form-accent-hover);
 }
 
+/* ---------- Поля форми ---------- */
 .field + .field {
   margin-top: 8px;
 }
@@ -140,7 +129,7 @@
   border: 1px solid var(--form-border);
   border-radius: var(--modal-radius);
   background-color: transparent;
-  color: var(--form-text);
+  color: #434455;
 
   font-family: inherit;
   font-weight: 400;
@@ -191,6 +180,8 @@
 .field-input:focus + .field-icon {
   color: var(--form-accent);
 }
+
+/* ---------- Кастомний checkbox ---------- */
 .checkbox-wrap {
   margin: 16px 0 24px;
 }
@@ -207,8 +198,8 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
 
   color: var(--form-white);
   background-color: transparent;
@@ -230,8 +221,8 @@
 }
 
 .checkbox:checked + .checkbox-label .custom-checkbox {
-  background-color: var(--form-accent);
-  border-color: var(--form-accent);
+  background-color: #404bbf;
+  border-color: #404bbf;
 }
 
 .checkbox:checked + .checkbox-label .checkbox-icon {
@@ -261,6 +252,8 @@
 .checkbox-link:focus {
   color: var(--form-accent-hover);
 }
+
+/* ---------- Кнопка Send ---------- */
 .modal-submit {
   display: block;
   width: 169px;
@@ -277,7 +270,7 @@
   background-color: var(--form-accent);
   border: 0;
   border-radius: var(--modal-radius);
-  box-shadow: var(--modal-shadow);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
 
   transition: background-color var(--form-transition);

@@ -110,8 +110,8 @@
   <path fill="currentColor" d="M2.01 21 23 12 2.01 3 2 10l15 2-15 2z" />
 </symbol>
 
-<symbol id="icon-close" viewBox="0 0 24 24">
-  <path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+<symbol id="icon-close" viewBox="0 0 8 8">
+  <path d="M1 1l6 6M7 1 1 7" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" />
 </symbol>
 
 <symbol id="icon-user" viewBox="0 0 24 24">
@@ -126,8 +126,8 @@
   <path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z" />
 </symbol>
 
-<symbol id="icon-check" viewBox="0 0 24 24">
-  <path d="m4 12.5 5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+<symbol id="icon-check" viewBox="0 0 10 8">
+  <path d="M1 4.2 3.8 7 9 1" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
 </symbol>
     </defs>
 </svg>
